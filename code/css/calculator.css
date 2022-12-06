@@ -1,0 +1,69 @@
+.box{
+    width: 437px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-position: top;
+    background: linear-gradient(135deg,white,gray);
+}
+.top{
+    
+    text-align: right;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: bisque;
+    margin: 0px;
+    
+}
+
+div.result{
+    width: 415px;
+    height: 54px;
+    margin: 0px 0px;
+    font-size: 40px;
+    background-color: bisque;
+    /* justify-content: flex-end; */
+}
+.tabal_main{
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* position: fixed; */
+    background: linear-gradient(135deg, rgb(243, 239, 239), rgb(113, 113, 147));
+    /* background: linear-gradient(top,transparent 0,transparent 5%,rgb(138,173,255) 5%,rgb(138,173,255) 100%); */
+
+}
+span{
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    width: 99px;
+    height: 44px;
+    font-size: 20px;
+    margin: 2px 1px;
+
+    background-color: rgba(230, 222, 222, 0.669);
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: center;
+
+}
+#delBtn,#clearBtn{
+    background-color: rgba(218, 133, 12, 0.872);
+    color: white;
+}
+#divide,#multi,#add,#sub{
+    background-color: rgba(52, 26, 26, 0.647);
+    color: white;
+}
+#equal{
+    background-color: black;
+    color: white;
+}
+
