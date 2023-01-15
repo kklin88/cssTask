@@ -6,7 +6,8 @@ box.card{
    
 }
 .left{
-    flex: 127;
+    flex: auto;
+    /* flex: 0; */
 }
 .middle{
     flex: 20;
