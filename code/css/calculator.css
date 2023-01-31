@@ -17,7 +17,7 @@
     
 }
 
-div.result{
+div#result{
     width: 415px;
     height: 54px;
     margin: 0px 0px;
