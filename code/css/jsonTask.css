@@ -1,0 +1,83 @@
+box.card{
+    height: 168px;
+    width: 466px;
+    display: flex;
+    flex-direction: row; 
+    margin: 10px;
+   
+}
+.left{
+    flex: auto;
+    /* flex: 0; */
+}
+.middle{
+    flex: 20;
+}
+.right{
+    flex: 319;
+    
+    overflow: hidden;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: last baseline;
+    padding: 0px;
+}
+.price{
+    flex: 7;
+    flex-direction: column;
+}
+.foot_middle{
+    flex: 1;
+}
+.promote{
+    flex: 2;
+}
+.price_box{
+    display: inline-flex;
+    flex-direction: row;
+    padding: 0px;
+
+    
+}
+img{
+    height: 168px;
+    width: 127px;
+}
+h1{ 
+    padding: 0px 0px;
+    font-size: 18px;
+    margin: 0px;
+}
+h2{
+    margin: 0px;
+    padding: 0px 0px;
+    font-size: 14px;
+}
+p.people_num{
+    font-size: 14px;
+    color: gray;
+}
+
+p.price_now{
+    font-size: 18px;
+    padding: 0 1px;
+    margin: 0px;
+    color: orange;
+}
+s.price_ori{
+    font-size: 13px;
+    padding: 0 10px;
+    color: gray;
+}
+div.get_money{
+    font-size: 14px;
+    color: orange;
+}
+p.buttom{
+    color: white;
+    background-color: rgba(240, 136, 8, 0.921);
+    border-radius: 5px;
+    text-align: center;
+}
